@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="ContentSphere favicon">
+  <defs>
+    <linearGradient id="cs-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FA0FF"/>
+      <stop offset="55%" stop-color="#6B5BFF"/>
+      <stop offset="100%" stop-color="#FF5DC8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base circle -->
+  <circle cx="128" cy="128" r="112" fill="url(#cs-grad)"/>
+
+  <!-- Interlaced arcs (thicker for favicon legibility) -->
+  <path d="M128 20 a108 108 0 0 1 0 216 M154 20 a108 108 0 0 1 0 216 M102 20 a108 108 0 0 1 0 216"
+        fill="none" stroke="#FFFFFF" stroke-opacity="0.78" stroke-width="6" stroke-linecap="round"/>
+  <path d="M20 128 a108 108 0 0 0 216 0" fill="none" stroke="#FFFFFF" stroke-opacity="0.92" stroke-width="7" stroke-linecap="round"/>
+  <path d="M36 98 a108 108 0 0 0 184 0" fill="none" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="6" stroke-linecap="round"/>
+  <path d="M36 158 a108 108 0 0 1 184 0" fill="none" stroke="#FFFFFF" stroke-opacity="0.88" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Highlight dot -->
+  <circle cx="188" cy="70" r="10" fill="#FFFFFF" opacity="0.95"/>
+</svg>

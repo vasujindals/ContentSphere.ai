@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="60" viewBox="0 0 210 50" role="img" aria-label="ContentSphere logo">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5B8CFF"/>
+      <stop offset="50%" stop-color="#7A5CFF"/>
+      <stop offset="100%" stop-color="#FF6AD5"/>
+    </linearGradient>
+    <style>
+      .wordmark { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; font-weight: 800; letter-spacing: -0.5px; }
+    </style>
+  </defs>
+
+  <!-- Icon -->
+  <g transform="translate(2,2) scale(0.24)">
+    <circle cx="90" cy="90" r="84" fill="url(#g1)"/>
+    <path d="M90 6 A84 84 0 0 1 90 174 M120 6 A84 84 0 0 1 120 174 M60 6 A84 84 0 0 1 60 174"
+          fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="3" />
+    <path d="M6 90 A84 84 0 0 0 174 90 M18 60 A84 84 0 0 0 162 60 M18 120 A84 84 0 0 1 162 120"
+          fill="none" stroke="rgba(255,255,255,0.85)" stroke-width="3"/>
+    <circle cx="150" cy="45" r="6" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(50,33)">
+    <text class="wordmark" x="0" y="0" font-size="20" fill="#0A0A0A">Content</text>
+    <text class="wordmark" x="76" y="0" font-size="20" fill="url(#g1)">Sphere</text>
+  </g>
+</svg>
